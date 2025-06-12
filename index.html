@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <title>Verificação de Senha</title>
+</head>
+<body>
+
+  <div class="login">
+<div class="user">
+<img src="assets/luffy.jpeg" alt="" srcset="">
+</div>
+  <h1 style="color: #be2714; font-family:'Poppins'; text-transform: uppercase; font-size: 50px; text-align: center; padding: 12%;">Digite o código do Luffy para entrar </h1>
+  <input type="password" id="senha" placeholder="Senha">
+  <button onclick="verificarSenha()">Entrar</button>
+  </div>
+
+  <script>
+    function verificarSenha() {
+      const senhaCorreta = "12345"; // Altere para a senha que desejar
+      const senhaDigitada = document.getElementById("senha").value;
+
+      if (senhaDigitada === senhaCorreta) {
+        // Redireciona para outra página
+        window.location.href = "inicio.html"; // Altere para a URL da sua página
+      } else {
+        alert("Senha incorreta!");
+      }
+    }
+  </script>
+</body>
+</html>

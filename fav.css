@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #be2714;
+}
+
+.duck-icon{
+    background-color: #be2714;
+    width: 5cm;
+    height: 5cm;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 6vh;
+    overflow: hidden; 
+}
+
+.duck-icon img{
+    width: 5cm;
+    height: 5cm;
+}
+
+.momentos-fav{
+    background-color: #ebebeb;
+    width: 10cm;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 2vh;
+    border-top-left-radius:20% ;
+    border-bottom-right-radius: 20%;
+}
+
+#back{
+    background-color: #ebebeb;
+    border: none;
+    color: #be2714;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: medium;
+    width: 35%;
+    height: 5vh;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+    border-radius: 20px;
+}
