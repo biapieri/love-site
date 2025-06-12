@@ -1,0 +1,43 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:#000000 ;
+}
+
+.user{
+    background-color: #be2714;
+    width: 5cm;
+    height: 5cm;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    overflow: hidden; /*coloca a imagem dentro da div*/
+}
+
+.user img{
+    width: 5cm;
+    height: auto;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.botoes button{
+    cursor: pointer;
+    background-color: #be2714;
+    color: #ebebeb;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: medium;
+    border: none;
+    width: 65%;
+    height: 5vh;
+    margin: 0 auto;
+}
+
+
+
+

@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #be2714;
+}
+
+#back{
+    background-color: #ebebeb;
+    border: none;
+    color: #be2714;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: medium;
+    width: 35%;
+    height: 5vh;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20%;
+    border-radius: 20px;
+}

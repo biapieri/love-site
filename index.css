@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+.login button{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    background-color: #be2714;
+    color: #ebebeb;
+    font-family: "Poppins";
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 40px;
+    width: 20%;
+    padding: 20px;
+}
+
+.user{
+    background-color: #be2714;
+    width: 12cm;
+    height: 12cm;
+    border-radius: 100%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    overflow: hidden; /*coloca a imagem dentro da div*/
+}
+
+.user img{
+    width: 12cm;
+    height: auto;
+}
+
+#senha{
+    display: block;
+    margin: 0 auto;
+    font-size: 45px;
+    font-family: "Poppins";
+    text-transform: uppercase;
+    padding: 12px;
+    width: 60%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+}
